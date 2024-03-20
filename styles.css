@@ -109,22 +109,60 @@ button{
 
 .box_container{
     display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.box_subcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    gap: 10px;
+    color: darkgrey;
 }
 
 .box{
-    
-    display: flex;
-    flex-direction: column;
-    border: 10px;
+    border: 3px solid;
     border-color: #3882F6;
-    border-radius: 8px;
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
 }
+
+/* You are here. Struggling to get section three across page */
 
 .section_three{
     display: flex;
-    flex: 1;
-    flex-wrap: wrap;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    width: auto;
     padding: 50px 100px 100px 100px;
+    background-color: #E5E7EB;
+}
+
+.quote_container{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 750px;
+}
+
+.main_quote{
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote_author{
+    display: flex;
+    font-size: 30px;
+    color: black;
+    justify-content: flex-end;
 }
 
 .section_four{
