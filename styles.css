@@ -12,7 +12,8 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 18px 120px;
+    width: auto;
+    padding: 18px 100px 100px 100px;
 }
 
 .header_logo{
@@ -42,41 +43,44 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    /* Remember to add vertical  padding */
-    /* padding: 0 120px; */
-    /* Trying to sort out the filling here */
-    /* flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 0 auto; */
 }
 
 .section_one{
     display: flex;
     flex: 1;
+    justify-content: center;
     background-color: #1F2937;
     color:#F9FAF8;
     gap: 16px;
-    padding: 0 120px;
-    /* justify-content: space-around; */
+    width: auto;
+    padding: 50px 100px 100px 100px;
 }
 
 .one_left{
     display: flex;
     flex: 1;
     flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .hero_text{
-    
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .hero_subtext{
-    
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 button{
-
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: 0px;
 }
 
 .one_right{
@@ -85,28 +89,49 @@ button{
     justify-content: center;
     align-items: center;
     background: darkgray;
-    margin: 18px;
 }
 
 .section_two{
     display: flex;
+    flex-direction: column;
     flex: 1;
-    flex-wrap: wrap;
-    padding: 0 120px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 100px 100px 100px;
+}
+
+.section_two_header{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.box_container{
+    display: flex;
+}
+
+.box{
+    
+    display: flex;
+    flex-direction: column;
+    border: 10px;
+    border-color: #3882F6;
+    border-radius: 8px;
 }
 
 .section_three{
     display: flex;
     flex: 1;
     flex-wrap: wrap;
-    padding: 0 120px;
+    padding: 50px 100px 100px 100px;
 }
 
 .section_four{
     display: flex;
     flex: 1;
     flex-wrap: wrap;
-    padding: 0 120px;
+    padding: 50px 100px 100px 100px;
 }
 
 .footer{
@@ -117,5 +142,5 @@ button{
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
-    padding: 18px 120px;
+    padding: 18px 100px;
 }
