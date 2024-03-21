@@ -41,6 +41,7 @@ ul{
 
 a{
     text-decoration: none;
+    color:#F9FAF8;
 }
 
 .content{
@@ -171,7 +172,40 @@ button{
     flex: 1;
     justify-content: center;
     align-items: center;
-    padding: 50px 0 100px 0;
+    padding: 100px 0 100px 0;
+}
+
+.blue_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 900px;
+    padding: 50px 100px;
+    border-radius: 8px;
+}
+
+.blue_subcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+
+.blue_top{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.blue_bottom{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.bottom_button{
+    border: solid 2px #F9FAF8;
+    padding: 5px 20px;
 }
 
 .footer{
