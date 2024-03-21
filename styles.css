@@ -46,7 +46,6 @@ a{
 .content{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .section_one{
@@ -56,15 +55,16 @@ a{
     background-color: #1F2937;
     color:#F9FAF8;
     gap: 16px;
-    padding: 50px 100px 100px 100px;
+    padding: 50px 0 100px 0;
 }
 
 .one_left{
     display: flex;
-    flex: 1;
+    flex-shrink: 0;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
+    width: 500px;
 }
 
 .hero_text{
@@ -88,8 +88,9 @@ button{
 
 .one_right{
     display: flex;
-    flex: 1;
+    flex-shrink: 0;
     justify-content: center;
+    width: 500px;
     align-items: center;
     background: darkgray;
 }
@@ -101,7 +102,7 @@ button{
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 50px 100px 100px 100px;
+    padding: 50px 0 100px 0;
 }
 
 .section_two_header{
@@ -135,12 +136,6 @@ button{
     width: 150px;
 }
 
-/* YOU ARE HERE. Struggling to get section three across page */
-
-/* Does section three need a wrapper? I don't think it should, but why isn't it flexing? Inspect it. */
-
-/* Also need to get section one to stretch. Background wrapper, too? */
-
 .section_three{
     display: flex;
     flex-direction: column;
@@ -154,7 +149,6 @@ button{
 .quote_container{
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     width: 750px;
 }
 
@@ -175,8 +169,9 @@ button{
 .section_four{
     display: flex;
     flex: 1;
-    flex-wrap: wrap;
-    padding: 50px 100px 100px 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 100px 0;
 }
 
 .footer{
